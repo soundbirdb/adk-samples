@@ -62,6 +62,8 @@ gcloud auth application-default login
 
 Or set the `GOOGLE_APPLICATION_CREDENTIALS` environment variable to point to a service account key file.
 
+> **Personal note:** I found it easiest to create a `.env` file in each agent directory with `GOOGLE_CLOUD_PROJECT=my-project-id` and use `python-dotenv` to load it, rather than relying solely on gcloud auth.
+
 ### 5. Run a Sample Agent
 
 ```bash
