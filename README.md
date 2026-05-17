@@ -76,6 +76,8 @@ To launch the ADK web UI for interactive testing:
 adk web
 ```
 
+> **Personal note:** By default `adk web` binds to `127.0.0.1:8000`. If port 8000 is already in use on your machine, run `adk web --port 8080` to avoid the conflict.
+
 ## Available Samples
 
 | Sample | Description | Complexity |
@@ -101,4 +103,3 @@ Please use the [GitHub Issues](../../issues) page and select the appropriate tem
 
 ## License
 
-This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.
